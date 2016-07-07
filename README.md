@@ -1,68 +1,41 @@
-Freshman21
-==========
+# resumecard
+-------
+resumecard is a theme built on top of bootstrap and other freely available libraries. Its aimed to provide a fully furnished Jekyll theme for personal resume.  
 
-Freshman21 is a Jekyll blog theme, base on theme [Freshman](http://github.com/yulijia/freshman). 
+[![Build Status](https://travis-ci.org/ddbullfrog/resumecard.svg?branch=master)](https://travis-ci.org/ddbullfrog/resumecard)
 
-A tribute to WordPress Theme Twenty-Twelve and Twenty-eleven.
+## Demo
+-------
+You can see the live demo of [resumecard](https://ddbullfrog.github.io/resumecard)
 
-Enjoy.
+This is the web page on desktop browser.
 
+![Desktop](https://github.com/ddbullfrog/resumecard/blob/gh-pages/_assets/normal.jpg)
 
-![Screen](http://i.imgur.com/oSp7kacl.png)
+## Getting Started
+-------
+- [Fork this repository](https://github.com/ddbullfrog/resumecard/fork)
+- Clone it: `git clone https://github.com/YOUR-USER/resumecard`
+- Run the jekyll server: `jekyll serve`
 
-### Version 2.1 update 2016.06.06
+You should have a server up and running locally at <http://localhost:4000>.
 
-- master branch: the simplest template, original version with
-	* Open Graph META Tags
-	* Microdata(schema.org)
+## Features
+-------
+- Responsive Jekyll theme
+- Easy integration with Google Analytics
 
-- gh-pages branch: master branch with 
+## Configuration
+-------
+- _config.yml
+-  CNAME
+	If you're using it on GitHub Pages with a custom domain name, 
+	you'll want to change it to be the domain you're going to use. 
+	All that should be in here is a domain name on the first line and nothing else (like: `example.com`).
+-  avatar.JPG
+	This is a smaller version of my gravatar for use as the icon in your browser's address bar. 
+	You should change it to whatever you'd like.
 
-	* [google analytics js template](https://github.com/yulijia/freshman21/blob/gh-pages/_includes/google_analytics.js)
-        * [BackToTop js script](https://github.com/yulijia/freshman21/tree/gh-pages/js)
-        * <q>readmore</q> module
-        * [keyboard shortcuts for pagination](http://yulijia.net/freshman21/news/2016/05/24/new-features.html)
-	* font awesome icon
-	* [Google search](https://github.com/yulijia/freshman21/blob/gh-pages/_includes/google_search.js)
-
-Clone master branch: 
-
-` git clone https://github.com/yulijia/freshman21.git -b master --single-branch`
-
-Clone gh-pages branch: 
-
-`git clone https://github.com/yulijia/freshman21.git -b gh-pages --single-branch`
-
-
-### A Summary of Features
-
-- Provide single column and two columns layout
-- Powerful configure file
-- Comments by Disqus
-- Support LaTeX (by MathJax)
-- Syntax highlighting
-- Multiple Languages support 
-    * English
-    * Chinese
-    * Japanese (Contributed by [kokeiro](https://github.com/kokeiro001))
-    * Polish (Contributed by [Derson5](https://github.com/Derson5))
-
-
-### How to install this theme?
-
-```
-# please make sure you have already installed git tools and ruby tools(gem)
-$ gem install sass
-$ gem install jekyll
-$ git clone https://github.com/yulijia/freshman21.git
-$ mv freshman21/ yourblogname.github.io/
-
-```
-
-### Demo
-
-Single column, please see [my own blog](http://yulijia.net/en/)
-
-Two columns, please see the [theme website](http://yulijia.net/freshman21/)
-
-
+## License
+-------
+Open sourced under the [MIT license](LICENSE.md).
