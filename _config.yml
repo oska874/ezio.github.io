@@ -1,11 +1,10 @@
 # Site settings
-title: Dong Liang's CV 
-description: ddbullfrog's CV
+title: Ezio Zhang's CV 
+description: CV
 favicon: /assets/img/avatar.JPG
 baseurl: https://ddbullfrog.github.io/resumecard
 url: https://ddbullfrog.github.io/resumecard
 rss_url: /pages/atom.xml
-google_analytics: UA-63653234-1
 
 # Build settings
 markdown: kramdown
