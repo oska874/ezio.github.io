@@ -16,7 +16,7 @@ exclude: [vendor]
 author:
   name: TEST
   title: test
-  address: Beijing
+  address: test
   email: test 
   link: test
   weibo:
@@ -64,6 +64,9 @@ author:
     - language2:
       name: English
       proficiency: Professional
+    - language3:
+      name: Japanese
+      proficiency: Limit
   programmingSkills:
     - skill1:
       name: C
